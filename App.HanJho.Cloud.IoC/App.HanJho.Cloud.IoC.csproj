@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.HanJho.Cloud.Presenters\App.HanJho.Cloud.Presenters.csproj" />
+    <ProjectReference Include="..\App.HanJho.Cloud.RepositoryEFCore\App.HanJho.Cloud.RepositoryEFCore.csproj" />
+    <ProjectReference Include="..\App.HanJho.Cloud.UseCases\App.HanJho.Cloud.UseCases.csproj" />
+  </ItemGroup>
+
+</Project>

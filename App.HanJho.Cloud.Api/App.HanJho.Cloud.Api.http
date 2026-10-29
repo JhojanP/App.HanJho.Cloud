@@ -1,0 +1,6 @@
+@App.HanJho.Cloud.Api_HostAddress = http://localhost:5197
+
+GET {{App.HanJho.Cloud.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

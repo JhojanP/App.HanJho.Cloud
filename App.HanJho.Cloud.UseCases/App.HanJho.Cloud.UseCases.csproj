@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.HanJho.Cloud.Entities\App.HanJho.Cloud.Entities.csproj" />
+    <ProjectReference Include="..\App.HanJho.Cloud.UseCasesPorts\App.HanJho.Cloud.UseCasesPorts.csproj" />
+  </ItemGroup>
+
+</Project>

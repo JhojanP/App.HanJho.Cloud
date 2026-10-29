@@ -1,0 +1,25 @@
+<Solution>
+  <Folder Name="/Application Business Rules/">
+    <Project Path="App.HanJho.Cloud.DTOs/App.HanJho.Cloud.DTOs.csproj" />
+    <Project Path="App.HanJho.Cloud.UseCases/App.HanJho.Cloud.UseCases.csproj" />
+    <Project Path="App.HanJho.Cloud.UseCasesPorts/App.HanJho.Cloud.UseCasesPorts.csproj" />
+  </Folder>
+  <Folder Name="/Enterprise Business Rules/">
+    <Project Path="App.HanJho.Cloud.Entities/App.HanJho.Cloud.Entities.csproj" />
+  </Folder>
+  <Folder Name="/Frameworks And Drivers/" />
+  <Folder Name="/Frameworks And Drivers/UIs/">
+    <Project Path="App.HanJho.Cloud.Api/App.HanJho.Cloud.Api.csproj" Id="42287940-939d-4841-a203-eff4635678c2" />
+  </Folder>
+  <Folder Name="/Interface Adapters/" />
+  <Folder Name="/Interface Adapters/Controllers/">
+    <Project Path="App.HanJho.Cloud.Controllers/App.HanJho.Cloud.Controllers.csproj" Id="8ddf0c97-ef0d-4eb5-bc78-190337375c53" />
+  </Folder>
+  <Folder Name="/Interface Adapters/Gateways/">
+    <Project Path="App.HanJho.Cloud.IoC/App.HanJho.Cloud.IoC.csproj" Id="e7385268-eba6-4321-8d14-a322fe897eb4" />
+    <Project Path="App.HanJho.Cloud.RepositoryEFCore/App.HanJho.Cloud.RepositoryEFCore.csproj" />
+  </Folder>
+  <Folder Name="/Interface Adapters/Presenters/">
+    <Project Path="App.HanJho.Cloud.Presenters/App.HanJho.Cloud.Presenters.csproj" Id="7fbe8fb5-f57b-444e-a368-a837ea1d3c04" />
+  </Folder>
+</Solution>
