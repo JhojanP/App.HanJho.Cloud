@@ -10,7 +10,7 @@ namespace App.HanJho.Cloud.Controllers;
 public class CreateProductController( ICreateProductInputPort inputPort, ICreateProductOutputPort outputPort) : ControllerBase
 { 
     readonly ICreateProductInputPort InputPort=inputPort;
-    readonly ICreateProductOutputPort OutputPort;
+    readonly ICreateProductOutputPort OutputPort= outputPort;
 
     [HttpPost]
     public async Task<ProductDTO> CreateProduct([FromBody] CreateProductDTO productDTO)
